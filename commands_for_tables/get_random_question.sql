@@ -1,0 +1,1 @@
+SELECT * FROM questions WHERE question_id NOT IN(SELECT question_id FROM solved) ORDER BY RANDOM() LIMIT 1;
